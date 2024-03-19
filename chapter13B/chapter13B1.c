@@ -33,4 +33,5 @@ int main()
     {
         printf("O");
     }
+    return 0;
 }
