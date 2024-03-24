@@ -1,3 +1,4 @@
+//Calc electricity bill take id,name and unit as input
 #include<stdio.h>
 int main()
 {
@@ -47,4 +48,5 @@ int main()
     printf("Amount Charges @Rs. %.2f per unit: %.2f\n",charge,amt_chr);
     printf("Surcharge amount: %.2f\n",sur);
     printf("Net amount paid by the customer: %.2f",net);
+    return 0;
 }
