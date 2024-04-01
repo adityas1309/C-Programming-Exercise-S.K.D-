@@ -9,7 +9,7 @@ int main()
     {
         printf("Fail");
     }
-    else if(a>=40&&a<=495)
+    else if(a>=40&&a<=49)
     {
         printf("D");
     }
