@@ -1,4 +1,4 @@
-//Accept a real no. x adn print corresponding value of sin(1/x) using 4 dec place
+//Accept a real no. x and print corresponding value of sin(1/x) using 4 dec place
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -13,7 +13,7 @@ int main()
     }
     else if(x==0)
     {
-        printf("Value of sin(1/x) is \"Not possible\""); //se a backslash (\) before the double quote to indicate that it's not the end of the string
+        printf("Value of sin(1/x) is \"Not possible\""); //Use a backslash (\) before the double quote to indicate that it's not the end of the string
     }
     return 0;
 }
