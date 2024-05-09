@@ -15,6 +15,7 @@ int main()
       }
 
     }
+    printf("The sum of the divisor is: %d",s);
     if(s==a)
         printf("\n%d is a perfect number",a);
     else(printf("\n%d is not a perfect number",a));
