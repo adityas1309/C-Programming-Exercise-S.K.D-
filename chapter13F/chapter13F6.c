@@ -1,30 +1,28 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    printf("Enter the number of elements to be stored in the array: ");
+    int n,j=0,k=0;
     scanf("%d",&n);
-    int A[n];
-    printf("Input %d elements in the array:\n",n);
+    int A[n],OD[n],EN[n];
     for(int i=0;i<n;i++)
-    {
-        printf("element - %d: ",i);
         scanf("%d",&A[i]);
+    for(int i = 0; i < n; i++)
+    {
+        if (A[i] % 2 == 0)
+        {
+            EN[j] = A[i];
+            j++;
+        }
+        else
+        {
+            OD[k] = A[i];
+            k++;
+        }
     }
     printf("The Even elements of EVEN array are:\n");
-    for(int i=0;i<n;i++)
-    {
-        if(A[i]%2==0)
-        {
-           printf("%d ",A[i]);
-        }
-    }
+    for(int i=0;i<j;i++)
+           printf("%d ",EN[i]);
     printf("\nThe Odd elements of ODD array are:\n");
-    for(int i=0;i<n;i++)
-    {
-        if(A[i]%2==1)
-        {
-           printf("%d ",A[i]);
-        }
-    }
+    for(int i=0;i<k;i++)
+           printf("%d ",OD[i]);
 }
