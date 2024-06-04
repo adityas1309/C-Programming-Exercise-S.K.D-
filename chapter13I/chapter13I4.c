@@ -7,7 +7,7 @@ int main()
     fgets(str, sizeof(str), stdin);
     for(int i=0; str[i]!='\0'; i++)
         count++;
-    for(int i = 0, j = count - 2 ;i <= j; i++, j--)
+    for(int i = 0, j = count - 1 ;i <= j; i++, j--)
     {
         char c = str[i];
         str[i] = str[j];
